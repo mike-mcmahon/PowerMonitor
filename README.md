@@ -1,6 +1,6 @@
 # PowerMonitor
 
-## Introduction:
+## About
 
 This project was started to create a device that monitors AC voltage and to send push notifications to a users smartphone upon loss of power.
 
