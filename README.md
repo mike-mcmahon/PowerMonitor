@@ -6,7 +6,7 @@ This project was started to create a device that monitors AC voltage and to send
 
 This device comes in handy if you ever are concerned about the loss of power in your home or at your cottage.  The user will receive push notifications via cellular (LTE CAT M1) when power is lost
 and retored.  Battery backup lasts at least one day (usually more).  No reliance on wifi or ethernet base network connectivity; though you should ensure you have cellular reception in the 
-area you plan to deploy this.
+area you plan to deploy this.  *No subscription or dataplan is required when using this device.*
 
 For details of what this product can (currently) do for you, please read the user manual included in the documentation section of this repository.
 The project was intended to be a device for sale; however, I have decided to open source it.  Users have the option to use these project files to make their own device, or you can optionally contact me to manufacture and program parts, or all of this project for a fee.  
