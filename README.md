@@ -22,8 +22,8 @@ Note again that this was a device I had intended to sell, so keep this in mind w
 You will need VS Code installed on your system.
 Please note that there are two spots in the source code that you are required to update with your own information.
 1.	.vscode/settings.json
-Update '"particle.targetDevice”: “xxxxxxx”' with the correct device name for your Particle Device as configured on Particle.io.
-2.	Update 'Particle.publish("yyyyyyyy", pushoverPacket, PRIVATE);' in the file datatransmit.cpp where 'yyyyyyyy' is the event name you created for the custom webhook.
+Update `"particle.targetDevice”: “xxxxxxx”` with the correct device name for your Particle Device as configured on Particle.io.
+2.	Update `Particle.publish("yyyyyyyy", pushoverPacket, PRIVATE);` in the file datatransmit.cpp where `yyyyyyyy` is the event name you created for the custom webhook.
 Please note that I have built this application on DeviceOS 6.0.0.
 
 ## License:
