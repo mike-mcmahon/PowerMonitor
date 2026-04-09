@@ -64,9 +64,9 @@ To use this software/firmware you'll need:
 2. If you haven't already, open this project in Visual Studio Code (File -> Open Folder). 
 
 3. There are two spots in the source code that you are required to update with your own information.
-  a.	.vscode/settings.json
+  - .vscode/settings.json
     - Update `"particle.targetDevice”: “xxxxxxx”` with `xxxxxxxx` being the correct device name for your Particle Device as configured on Particle.io.
-  b.	datatransmit.cpp
+  - datatransmit.cpp
     - Update `Particle.publish("yyyyyyyy", pushoverPacket, PRIVATE);` in the file datatransmit.cpp where `yyyyyyyy` is the event name you created for the custom webhook.
 
 4. Then [compile and flash](https://docs.particle.io/getting-started/developer-tools/workbench/#cloud-build-and-flash) your device. Ensure your device's USB port is connected to your computer.
